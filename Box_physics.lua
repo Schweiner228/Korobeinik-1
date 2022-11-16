@@ -1,7 +1,7 @@
 local world
 local box
 
-function love.load()
+function love.boxload()
     world = love.physics.newWorld(0, 0, true)
 
     box = {}
@@ -12,7 +12,7 @@ function love.load()
     box.fixture:setFriction(0.6)
 end
 
-function love.update(dt)
+function love.boxupdate(dt)
     world:update(dt)
 end
 
