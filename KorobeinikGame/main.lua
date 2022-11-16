@@ -3,6 +3,7 @@ require "player"
 require "platform"
 require "Box_physics"
 require 'hood'
+require 'Config'
 
 local world
 local player
